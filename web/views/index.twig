@@ -1,4 +1,17 @@
-<table class="table table-striped table-dark">
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>New Jersey Institute of Technology</h1>
+            <p>Welcome to New Jersey Institute of Technology. As the state’s public polytechnic university, we continue to invest in the renewal of our existing facilities in addition to adding new spaces, with the goal of providing an exceptional teaching, learning and living environment.</p>
+        </div>
+    </div>
+
+
+    <table class="table table-striped table-dark">
   <thead>
   <tr>
     <th scope="col">No.</th>
@@ -91,3 +104,5 @@
     <b>Human Computer Interaction</b>
     <br>Human-Computer Interaction practitioners are skilled in incorporating user experience design, psychology, and ergonomics into building computer applications. As a Human-Computer Interaction expert, you will conduct surveys and focus group studies to measure user attitudes and behavior to create designs that provide outstanding user experiences.</br>
 </p>
+
+{% endblock %}
